@@ -29,13 +29,15 @@ jobs:
         run: |
           choco install maven
 
-      # Bước 4: Cài đặt Google Chrome Portable từ file .paf.exe
-      - name: Install Google Chrome Portable
+      # Bước 4: Tải và giải nén Google Chrome Portable từ file .zip
+      - name: Install Google Chrome Portable from ZIP
         run: |
           # Tải Google Chrome Portable từ GitHub repository
-          Invoke-WebRequest -Uri "https://github.com/TungSyo/Aumation_AFF/raw/main/chrome-files/GoogleChromePortable_online.paf.exe" -OutFile "GoogleChromePortable_online.paf.exe"
-          # Cài đặt Google Chrome Portable
-          Start-Process -FilePath "GoogleChromePortable_online.paf.exe" -ArgumentList "/S" -NoNewWindow -Wait
+          Invoke-WebRequest -Uri "https://github.com/TungSyo/Aumation_AFF/raw/main/chrome-files/GoogleChromePortable.zip" -OutFile "GoogleChromePortable.zip"
+          # Giải nén file ZIP vào thư mục mong muốn (ví dụ D:\Zalo\DATN\File_DATN)
+          Expand-Archive -Path "GoogleChromePortable.zip" -DestinationPath "D:\Zalo\DATN\File_DATN"
+          # Di chuyển thư mục chứa Google Chrome Portable vào thư mục đích
+          Move-Item -Path "D:\Zalo\DATN\File_DATN\GoogleChromePortable" -Destination "D:\Zalo\DATN\File_DATN\Google Chrome Portable"
 
       # Bước 5: Cài đặt ChromeDriver từ file .exe
       - name: Install ChromeDriver
@@ -43,7 +45,7 @@ jobs:
           # Tải ChromeDriver từ GitHub repository
           Invoke-WebRequest -Uri "https://github.com/TungSyo/Aumation_AFF/raw/main/chrome-files/chromedriver.exe" -OutFile "chromedriver.exe"
           # Di chuyển chromedriver.exe vào thư mục hệ thống để Selenium có thể tìm thấy
-          Move-Item -Path "chromedriver.exe" -Destination "C:\Windows\System32\chromedriver.exe"
+          Move-Item -Path "chromedriver.exe" -Destination "D:\Zalo\DATN\File_DATN\ChromeDriver"
 
       # Bước 6: Chạy các bài kiểm tra Selenium
       - name: Run Selenium Tests
