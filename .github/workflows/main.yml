@@ -1,4 +1,5 @@
 name: Selenium Test Automation
+
 on:
   push:
     branches:
@@ -6,9 +7,11 @@ on:
   pull_request:
     branches:
       - main
+
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+
     steps:
       # Bước 1: Checkout mã nguồn
       - name: Checkout code
@@ -24,45 +27,24 @@ jobs:
       # Bước 3: Cài đặt các dependencies cần thiết
       - name: Install dependencies
         run: |
-          sudo apt update
-          sudo apt install -y maven wget curl unzip
+          choco install maven
 
-      # Bước 4: Cài đặt phiên bản Google Chrome mới nhất
-      - name: Install latest Google Chrome
+      # Bước 4: Cài đặt Google Chrome Portable từ file .paf.exe
+      - name: Install Google Chrome Portable
         run: |
-          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb
-          sudo apt --fix-broken install -y
+          # Tải Google Chrome Portable từ GitHub repository
+          Invoke-WebRequest -Uri "https://github.com/username/repository/raw/main/chrome-files/GoogleChromePortable_online.paf.exe" -OutFile "GoogleChromePortable_online.paf.exe"
+          # Cài đặt Google Chrome Portable
+          Start-Process -FilePath "GoogleChromePortable_online.paf.exe" -ArgumentList "/S" -NoNewWindow -Wait
 
-      # Bước 5: Kiểm tra Chrome đã được cài đặt thành công
-      - name: Verify Chrome installation
-        run: |
-          google-chrome-stable --version || (echo "Chrome installation failed" && exit 1)
-
-      # Bước 6: Cài đặt ChromeDriver tương thích
+      # Bước 5: Cài đặt ChromeDriver từ file .exe
       - name: Install ChromeDriver
         run: |
-          CHROME_VERSION=$(google-chrome-stable --version | awk '{print $3}' | cut -d '.' -f1,2)
-          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION" || echo "Not Found")
-          if [ "$CHROMEDRIVER_VERSION" == "Not Found" ]; then
-            echo "ChromeDriver for Chrome version $CHROME_VERSION is not available."
-            exit 1
-          fi
-          echo "Installing ChromeDriver version: $CHROMEDRIVER_VERSION"
-          wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
-          unzip chromedriver_linux64.zip
-          sudo mv chromedriver /usr/local/bin/
-          chmod +x /usr/local/bin/chromedriver
+          # Tải ChromeDriver từ GitHub repository
+          Invoke-WebRequest -Uri "https://github.com/username/repository/raw/main/chrome-files/chromedriver.exe" -OutFile "chromedriver.exe"
+          # Di chuyển chromedriver.exe vào thư mục hệ thống để Selenium có thể tìm thấy
+          Move-Item -Path "chromedriver.exe" -Destination "C:\Windows\System32\chromedriver.exe"
 
-      # Bước 7: Cache Maven dependencies
-      - name: Cache Maven packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.m2
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven-
-
-      # Bước 8: Chạy các bài kiểm tra Selenium
+      # Bước 6: Chạy các bài kiểm tra Selenium
       - name: Run Selenium Tests
         run: mvn clean test
