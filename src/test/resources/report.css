@@ -1,0 +1,15 @@
+
+* {
+ font-family: FontAwesome, serif !important;
+}
+
+fa {
+  font-family: "FontAwesome" !important;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#search-tests {
+  margin-top: 6px;
+}

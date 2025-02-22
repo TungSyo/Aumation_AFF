@@ -1,0 +1,3689 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">
+* {
+font-family: FontAwesome, serif !important;
+}
+fa {
+font-family: "FontAwesome" !important;
+}
+a {
+color: black;
+text-decoration: none;
+}
+#search-tests {
+margin-top: 6px;
+}</style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 22, 2025 08:47:53 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Login_Data_Fail</a><a class="dropdown-item" href="#">Login_Data_Pass</a><a class="dropdown-item" href="#">Register_Test_Data_Fail</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Để trống tên người dùng</p>
+            <p class="text-sm">
+              <span>8:47:55 AM</span> / <span>00:00:20:939</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Để trống tên người dùng</h5>
+<span class='badge badge-success'>02.22.2025 8:47:55 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:16 AM</span>
+<span class='badge badge-default'>00:00:20:939</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:55 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:57 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:16 AM</td>
+        <td>
+          Thực hiện test case: Để trống tên người dùng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:16 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập tên
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:16 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:16 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:16 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="Login_Data_Pass"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Tài khoản hợp lệ - Case thành công</p>
+            <p class="text-sm">
+              <span>8:47:55 AM</span> / <span>00:00:03:031</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Tài khoản hợp lệ - Case thành công</h5>
+<span class='badge badge-success'>02.22.2025 8:47:55 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:47:58 AM</span>
+<span class='badge badge-default'>00:00:03:031</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Pass</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:55 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:57 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:58 AM</td>
+        <td>
+          Thực hiện test case: Tài khoản hợp lệ - Case thành công
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:47:58 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Đăng nhập thành công
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:47:58 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:47:58 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:58 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Để trống email</p>
+            <p class="text-sm">
+              <span>8:47:59 AM</span> / <span>00:00:02:651</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Để trống email</h5>
+<span class='badge badge-success'>02.22.2025 8:47:59 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:02 AM</span>
+<span class='badge badge-default'>00:00:02:651</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:59 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:01 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:02 AM</td>
+        <td>
+          Thực hiện test case: Để trống email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:02 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:02 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:02 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:02 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:48:03 AM</span> / <span>00:00:02:482</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:48:03 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:06 AM</span>
+<span class='badge badge-default'>00:00:02:482</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:03 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:05 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:06 AM</td>
+        <td>
+          Thực hiện test case: Nhập email bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:06 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:06 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:06 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:06 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email nhưng có ký tự trắng (Đầu)</p>
+            <p class="text-sm">
+              <span>8:48:07 AM</span> / <span>00:00:02:507</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email nhưng có ký tự trắng (Đầu)</h5>
+<span class='badge badge-success'>02.22.2025 8:48:07 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:10 AM</span>
+<span class='badge badge-default'>00:00:02:507</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:07 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:09 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:10 AM</td>
+        <td>
+          Thực hiện test case: Nhập email nhưng có ký tự trắng (Đầu)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:10 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:10 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:10 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:10 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email nhưng có ký tự trắng (Giữa)</p>
+            <p class="text-sm">
+              <span>8:48:11 AM</span> / <span>00:00:02:391</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email nhưng có ký tự trắng (Giữa)</h5>
+<span class='badge badge-success'>02.22.2025 8:48:11 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:13 AM</span>
+<span class='badge badge-default'>00:00:02:391</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:11 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:12 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:13 AM</td>
+        <td>
+          Thực hiện test case: Nhập email nhưng có ký tự trắng (Giữa)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:13 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:13 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:13 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:13 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email nhưng có ký tự trắng (Cuối)</p>
+            <p class="text-sm">
+              <span>8:48:14 AM</span> / <span>00:00:02:527</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email nhưng có ký tự trắng (Cuối)</h5>
+<span class='badge badge-success'>02.22.2025 8:48:14 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:17 AM</span>
+<span class='badge badge-default'>00:00:02:527</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:14 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:15 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:17 AM</td>
+        <td>
+          Thực hiện test case: Nhập email nhưng có ký tự trắng (Cuối)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:17 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:17 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:17 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:17 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập tên bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:48:18 AM</span> / <span>00:00:21:119</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập tên bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:48:18 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:39 AM</span>
+<span class='badge badge-default'>00:00:21:119</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:18 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:20 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Thực hiện test case: Nhập tên bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Tên không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email sai định dạng (Không có @)</p>
+            <p class="text-sm">
+              <span>8:48:18 AM</span> / <span>00:00:02:744</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email sai định dạng (Không có @)</h5>
+<span class='badge badge-success'>02.22.2025 8:48:18 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:21 AM</span>
+<span class='badge badge-default'>00:00:02:744</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:18 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:18 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:21 AM</td>
+        <td>
+          Thực hiện test case: Nhập email sai định dạng (Không có @)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:21 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:21 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:21 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:21 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email sai định dạng (Thiếu tên miền)</p>
+            <p class="text-sm">
+              <span>8:48:22 AM</span> / <span>00:00:02:574</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email sai định dạng (Thiếu tên miền)</h5>
+<span class='badge badge-success'>02.22.2025 8:48:22 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:24 AM</span>
+<span class='badge badge-default'>00:00:02:574</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:22 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:23 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:24 AM</td>
+        <td>
+          Thực hiện test case: Nhập email sai định dạng (Thiếu tên miền)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:24 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:24 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:24 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:24 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập email không tồn tại trong CSDL</p>
+            <p class="text-sm">
+              <span>8:48:25 AM</span> / <span>00:00:03:036</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập email không tồn tại trong CSDL</h5>
+<span class='badge badge-success'>02.22.2025 8:48:25 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:28 AM</span>
+<span class='badge badge-default'>00:00:03:036</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:25 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:27 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:28 AM</td>
+        <td>
+          Thực hiện test case: Nhập email không tồn tại trong CSDL
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:28 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Email người dùng không tồn tại!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:28 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:28 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:28 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Để trống mật khẩu</p>
+            <p class="text-sm">
+              <span>8:48:29 AM</span> / <span>00:00:02:587</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Để trống mật khẩu</h5>
+<span class='badge badge-success'>02.22.2025 8:48:29 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:32 AM</span>
+<span class='badge badge-default'>00:00:02:587</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:29 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:31 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:32 AM</td>
+        <td>
+          Thực hiện test case: Để trống mật khẩu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:32 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập mật khẩu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:32 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:32 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:32 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập mật khẩu bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:48:33 AM</span> / <span>00:00:02:527</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập mật khẩu bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:48:33 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:36 AM</span>
+<span class='badge badge-default'>00:00:02:527</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:33 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:34 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:35 AM</td>
+        <td>
+          Thực hiện test case: Nhập mật khẩu bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:36 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Tài khoản hoặc mật khẩu người dùng không chính xác!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:36 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:36 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:36 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag="Login_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Test - Nhập mật khẩu sai</p>
+            <p class="text-sm">
+              <span>8:48:37 AM</span> / <span>00:00:02:591</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login Test - Nhập mật khẩu sai</h5>
+<span class='badge badge-success'>02.22.2025 8:48:37 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:39 AM</span>
+<span class='badge badge-default'>00:00:02:591</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Login_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:37 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:38 AM</td>
+        <td>
+          Điều hướng đến http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Thực hiện test case: Nhập mật khẩu sai
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Tài khoản hoặc mật khẩu người dùng không chính xác!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:39 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập tên chứa ký tự trắng (Đầu)</p>
+            <p class="text-sm">
+              <span>8:48:40 AM</span> / <span>00:00:19:504</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập tên chứa ký tự trắng (Đầu)</h5>
+<span class='badge badge-success'>02.22.2025 8:48:40 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:48:59 AM</span>
+<span class='badge badge-default'>00:00:19:504</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:40 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:41 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:59 AM</td>
+        <td>
+          Thực hiện test case: Nhập tên chứa ký tự trắng (Đầu)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:59 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Tên không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:59 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:59 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:59 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập tên chứa ký tự trắng (Cuối)</p>
+            <p class="text-sm">
+              <span>8:49:01 AM</span> / <span>00:00:19:661</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập tên chứa ký tự trắng (Cuối)</h5>
+<span class='badge badge-success'>02.22.2025 8:49:01 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:49:20 AM</span>
+<span class='badge badge-default'>00:00:19:661</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:01 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:02 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:20 AM</td>
+        <td>
+          Thực hiện test case: Nhập tên chứa ký tự trắng (Cuối)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:20 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Tên không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:20 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:20 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:20 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Để trống Sđt</p>
+            <p class="text-sm">
+              <span>8:49:21 AM</span> / <span>00:00:19:474</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Để trống Sđt</h5>
+<span class='badge badge-success'>02.22.2025 8:49:21 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:49:41 AM</span>
+<span class='badge badge-default'>00:00:19:474</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:21 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:22 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:41 AM</td>
+        <td>
+          Thực hiện test case: Để trống Sđt
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:41 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập số điện thoại
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:41 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:41 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:41 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập sđt bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:49:42 AM</span> / <span>00:00:19:478</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập sđt bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:49:42 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:50:01 AM</span>
+<span class='badge badge-default'>00:00:19:478</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:42 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:43 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:01 AM</td>
+        <td>
+          Thực hiện test case: Nhập sđt bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:01 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: SĐT không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:01 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:01 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:01 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập sđt đã tồn tại</p>
+            <p class="text-sm">
+              <span>8:50:02 AM</span> / <span>00:00:19:514</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập sđt đã tồn tại</h5>
+<span class='badge badge-success'>02.22.2025 8:50:02 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:50:22 AM</span>
+<span class='badge badge-default'>00:00:19:514</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:02 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:03 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:22 AM</td>
+        <td>
+          Thực hiện test case: Nhập sđt đã tồn tại
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:22 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: SĐT không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:22 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:22 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:22 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập sđt chứa ký tự trắng (Đầu)</p>
+            <p class="text-sm">
+              <span>8:50:23 AM</span> / <span>00:00:19:521</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập sđt chứa ký tự trắng (Đầu)</h5>
+<span class='badge badge-success'>02.22.2025 8:50:23 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:50:42 AM</span>
+<span class='badge badge-default'>00:00:19:521</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:23 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:24 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:42 AM</td>
+        <td>
+          Thực hiện test case: Nhập sđt chứa ký tự trắng (Đầu)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:42 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: SĐT không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:42 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:42 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:42 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập sđt chứa ký tự trắng (Giữa)</p>
+            <p class="text-sm">
+              <span>8:50:43 AM</span> / <span>00:00:19:544</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập sđt chứa ký tự trắng (Giữa)</h5>
+<span class='badge badge-success'>02.22.2025 8:50:43 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:51:03 AM</span>
+<span class='badge badge-default'>00:00:19:544</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:43 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:44 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:03 AM</td>
+        <td>
+          Thực hiện test case: Nhập sđt chứa ký tự trắng (Giữa)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:03 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: SĐT không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:03 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:03 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:03 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập sđt chứa ký tự trắng (Cuối)</p>
+            <p class="text-sm">
+              <span>8:51:04 AM</span> / <span>00:00:19:361</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập sđt chứa ký tự trắng (Cuối)</h5>
+<span class='badge badge-success'>02.22.2025 8:51:04 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:51:23 AM</span>
+<span class='badge badge-default'>00:00:19:361</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:04 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:05 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:23 AM</td>
+        <td>
+          Thực hiện test case: Nhập sđt chứa ký tự trắng (Cuối)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:23 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: SĐT không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:23 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:23 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:23 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Để trống CMND</p>
+            <p class="text-sm">
+              <span>8:51:24 AM</span> / <span>00:00:19:529</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Để trống CMND</h5>
+<span class='badge badge-success'>02.22.2025 8:51:24 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:51:44 AM</span>
+<span class='badge badge-default'>00:00:19:529</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:24 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:25 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:44 AM</td>
+        <td>
+          Thực hiện test case: Để trống CMND
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:44 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập CMND/CCCD
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:44 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:44 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:44 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập CMND bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:51:45 AM</span> / <span>00:00:19:485</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập CMND bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:51:45 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:52:04 AM</span>
+<span class='badge badge-default'>00:00:19:485</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:45 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:46 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:04 AM</td>
+        <td>
+          Thực hiện test case: Nhập CMND bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:04 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: CCCD không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:04 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:04 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:04 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập CMND chứa ký tự trắng (Đầu)</p>
+            <p class="text-sm">
+              <span>8:52:05 AM</span> / <span>00:00:19:434</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập CMND chứa ký tự trắng (Đầu)</h5>
+<span class='badge badge-success'>02.22.2025 8:52:05 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:52:24 AM</span>
+<span class='badge badge-default'>00:00:19:434</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:05 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:06 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:24 AM</td>
+        <td>
+          Thực hiện test case: Nhập CMND chứa ký tự trắng (Đầu)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:24 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: CCCD không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:24 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:24 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:24 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập CMND chứa ký tự trắng (Giữa)</p>
+            <p class="text-sm">
+              <span>8:52:25 AM</span> / <span>00:00:19:468</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập CMND chứa ký tự trắng (Giữa)</h5>
+<span class='badge badge-success'>02.22.2025 8:52:25 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:52:45 AM</span>
+<span class='badge badge-default'>00:00:19:468</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:25 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:27 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:45 AM</td>
+        <td>
+          Thực hiện test case: Nhập CMND chứa ký tự trắng (Giữa)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:45 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: CCCD không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:45 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:52:45 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:45 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập CMND chứa ký tự trắng (Cuối)</p>
+            <p class="text-sm">
+              <span>8:52:46 AM</span> / <span>00:00:19:474</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập CMND chứa ký tự trắng (Cuối)</h5>
+<span class='badge badge-success'>02.22.2025 8:52:46 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:53:05 AM</span>
+<span class='badge badge-default'>00:00:19:474</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:46 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:52:47 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:05 AM</td>
+        <td>
+          Thực hiện test case: Nhập CMND chứa ký tự trắng (Cuối)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:05 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: CCCD không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:05 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:05 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:05 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Để trống email</p>
+            <p class="text-sm">
+              <span>8:53:06 AM</span> / <span>00:00:19:460</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Để trống email</h5>
+<span class='badge badge-success'>02.22.2025 8:53:06 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:53:26 AM</span>
+<span class='badge badge-default'>00:00:19:460</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:06 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:07 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:26 AM</td>
+        <td>
+          Thực hiện test case: Để trống email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:26 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập email
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:26 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:26 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:26 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập email bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:53:27 AM</span> / <span>00:00:19:552</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập email bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:53:27 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:53:46 AM</span>
+<span class='badge badge-default'>00:00:19:552</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:27 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:28 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:46 AM</td>
+        <td>
+          Thực hiện test case: Nhập email bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:46 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Email không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:46 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:53:46 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:46 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập email nhưng có ký tự trắng (Đầu)</p>
+            <p class="text-sm">
+              <span>8:53:47 AM</span> / <span>00:00:19:770</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập email nhưng có ký tự trắng (Đầu)</h5>
+<span class='badge badge-success'>02.22.2025 8:53:47 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:54:07 AM</span>
+<span class='badge badge-default'>00:00:19:770</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:47 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:53:48 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:07 AM</td>
+        <td>
+          Thực hiện test case: Nhập email nhưng có ký tự trắng (Đầu)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:54:07 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Email không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:54:07 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:54:07 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:07 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="31"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập email nhưng có ký tự trắng (Giữa)</p>
+            <p class="text-sm">
+              <span>8:54:08 AM</span> / <span>00:00:50:077</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Register Test - Nhập email nhưng có ký tự trắng (Giữa)</h5>
+<span class='badge badge-success'>02.22.2025 8:54:08 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:54:58 AM</span>
+<span class='badge badge-default'>00:00:50:077</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:08 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:09 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:27 AM</td>
+        <td>
+          Thực hiện test case: Nhập email nhưng có ký tự trắng (Giữa)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:54:58 AM</td>
+        <td>
+          Kiểm tra thông báo thất bại cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:54:58 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:54:58 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:58 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập email nhưng có ký tự trắng (Cuối)</p>
+            <p class="text-sm">
+              <span>8:54:59 AM</span> / <span>00:00:19:404</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập email nhưng có ký tự trắng (Cuối)</h5>
+<span class='badge badge-success'>02.22.2025 8:54:59 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:55:18 AM</span>
+<span class='badge badge-default'>00:00:19:404</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:54:59 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:00 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:18 AM</td>
+        <td>
+          Thực hiện test case: Nhập email nhưng có ký tự trắng (Cuối)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:18 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Email không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:18 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:18 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:18 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập email sai định dạng (Không có @)</p>
+            <p class="text-sm">
+              <span>8:55:19 AM</span> / <span>00:00:19:549</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập email sai định dạng (Không có @)</h5>
+<span class='badge badge-success'>02.22.2025 8:55:19 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:55:39 AM</span>
+<span class='badge badge-default'>00:00:19:549</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:19 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:21 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:39 AM</td>
+        <td>
+          Thực hiện test case: Nhập email sai định dạng (Không có @)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:39 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:39 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:39 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:39 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập email sai định dạng (Thiếu tên miền)</p>
+            <p class="text-sm">
+              <span>8:55:40 AM</span> / <span>00:00:19:384</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập email sai định dạng (Thiếu tên miền)</h5>
+<span class='badge badge-success'>02.22.2025 8:55:40 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:55:59 AM</span>
+<span class='badge badge-default'>00:00:19:384</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:40 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:41 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:59 AM</td>
+        <td>
+          Thực hiện test case: Nhập email sai định dạng (Thiếu tên miền)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:59 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Định dạng email không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:59 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:55:59 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:55:59 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Để trống mật khẩu</p>
+            <p class="text-sm">
+              <span>8:56:00 AM</span> / <span>00:00:19:413</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Để trống mật khẩu</h5>
+<span class='badge badge-success'>02.22.2025 8:56:00 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:56:20 AM</span>
+<span class='badge badge-default'>00:00:19:413</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:00 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:02 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:20 AM</td>
+        <td>
+          Thực hiện test case: Để trống mật khẩu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:56:20 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Vui lòng nhập mật khẩu
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:56:20 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:56:20 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:20 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập mật khẩu bằng ký tự trắng</p>
+            <p class="text-sm">
+              <span>8:56:21 AM</span> / <span>00:00:19:437</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User Register Test - Nhập mật khẩu bằng ký tự trắng</h5>
+<span class='badge badge-success'>02.22.2025 8:56:21 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:56:40 AM</span>
+<span class='badge badge-default'>00:00:19:437</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:21 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:22 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:40 AM</td>
+        <td>
+          Thực hiện test case: Nhập mật khẩu bằng ký tự trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:56:40 AM</td>
+        <td>
+          Kiểm tra thông báo thành công cho: Mật khẩu không được chứa khoảng trắng
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:56:40 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:56:40 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:40 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="37"
+          author=""
+          tag="Register_Test_Data_Fail"
+          device="">
+          <div class="test-detail">
+            <p class="name">User Register Test - Nhập các trường bắt buộc hợp lệ, mã mời không hợp lệ</p>
+            <p class="text-sm">
+              <span>8:56:41 AM</span> / <span>00:00:50:204</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Register Test - Nhập các trường bắt buộc hợp lệ, mã mời không hợp lệ</h5>
+<span class='badge badge-success'>02.22.2025 8:56:41 AM</span>
+<span class='badge badge-danger'>02.22.2025 8:57:31 AM</span>
+<span class='badge badge-default'>00:00:50:204</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Register_Test_Data_Fail</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:41 AM</td>
+        <td>
+          Mở trình duyệt...
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:56:42 AM</td>
+        <td>
+          Điều hướng đến: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:57:01 AM</td>
+        <td>
+          Thực hiện test case: Nhập các trường bắt buộc hợp lệ, mã mời không hợp lệ
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:57:31 AM</td>
+        <td>
+          Kiểm tra thông báo thất bại cho: Mã mời không hợp lệ, người mời không tồn tại
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:57:31 AM</td>
+        <td>
+          Kiểm tra tiêu đề thành công cho: Honivy
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:57:31 AM</td>
+        <td>
+          Kiểm tra link thành công cho: http://localhost:4200/
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:57:31 AM</td>
+        <td>
+          Đóng trình duyệt...
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>11</span>
+</span>
+<p class="name">Login_Data_Fail</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Login_Data_Fail</h4>
+<span status="pass" class='badge log pass-bg'>11 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:47:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Login Test - Để trống email</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Login Test - Nhập email bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:07 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Login Test - Nhập email nhưng có ký tự trắng (Đầu)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Login Test - Nhập email nhưng có ký tự trắng (Giữa)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Login Test - Nhập email nhưng có ký tự trắng (Cuối)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Login Test - Nhập email sai định dạng (Không có @)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Login Test - Nhập email sai định dạng (Thiếu tên miền)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Login Test - Nhập email không tồn tại trong CSDL</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Login Test - Để trống mật khẩu</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:33 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Login Test - Nhập mật khẩu bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:37 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Login Test - Nhập mật khẩu sai</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Login_Data_Pass</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Login_Data_Pass</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:47:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Login Test - Tài khoản hợp lệ - Case thành công</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>23</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">Register_Test_Data_Fail</p>
+<p class="duration text-sm">25 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Register_Test_Data_Fail</h4>
+<span status="pass" class='badge log pass-bg'>23 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:47:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>User Register Test - Để trống tên người dùng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>User Register Test - Nhập tên bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:48:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>User Register Test - Nhập tên chứa ký tự trắng (Đầu)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:49:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>User Register Test - Nhập tên chứa ký tự trắng (Cuối)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:49:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>User Register Test - Để trống Sđt</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:49:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>User Register Test - Nhập sđt bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:50:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>User Register Test - Nhập sđt đã tồn tại</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:50:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>User Register Test - Nhập sđt chứa ký tự trắng (Đầu)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:50:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>User Register Test - Nhập sđt chứa ký tự trắng (Giữa)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:51:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>User Register Test - Nhập sđt chứa ký tự trắng (Cuối)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:51:24 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>User Register Test - Để trống CMND</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:51:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>User Register Test - Nhập CMND bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:52:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>User Register Test - Nhập CMND chứa ký tự trắng (Đầu)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:52:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>User Register Test - Nhập CMND chứa ký tự trắng (Giữa)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:52:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>User Register Test - Nhập CMND chứa ký tự trắng (Cuối)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:53:06 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>User Register Test - Để trống email</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:53:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>User Register Test - Nhập email bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:53:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>User Register Test - Nhập email nhưng có ký tự trắng (Đầu)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:54:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>User Register Test - Nhập email nhưng có ký tự trắng (Giữa)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:54:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>User Register Test - Nhập email nhưng có ký tự trắng (Cuối)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:55:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>User Register Test - Nhập email sai định dạng (Không có @)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:55:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>User Register Test - Nhập email sai định dạng (Thiếu tên miền)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:56:00 AM</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>User Register Test - Để trống mật khẩu</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:56:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>User Register Test - Nhập mật khẩu bằng ký tự trắng</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>08:56:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>User Register Test - Nhập các trường bắt buộc hợp lệ, mã mời không hợp lệ</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 22, 2025 08:47:53 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 22, 2025 08:57:32 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>35</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='94%'>
+<b>35</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='5%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='42%'><b>109</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>2</b> events failed,
+<b data-tooltip='%'>148</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"User Register Test - Để trống tên người dùng":20.939,"Login Test - Tài khoản hợp lệ - Case thành công":3.031,"Login Test - Để trống email":2.651,"Login Test - Nhập email bằng ký tự trắng":2.482,"Login Test - Nhập email nhưng có ký tự trắng (Đầu)":2.507,"Login Test - Nhập email nhưng có ký tự trắng (Giữa)":2.391,"Login Test - Nhập email nhưng có ký tự trắng (Cuối)":2.527,"User Register Test - Nhập tên bằng ký tự trắng":21.119,"Login Test - Nhập email sai định dạng (Không có @)":2.744,"Login Test - Nhập email sai định dạng (Thiếu tên miền)":2.574,"Login Test - Nhập email không tồn tại trong CSDL":3.036,"Login Test - Để trống mật khẩu":2.587,"Login Test - Nhập mật khẩu bằng ký tự trắng":2.527,"Login Test - Nhập mật khẩu sai":2.591,"User Register Test - Nhập tên chứa ký tự trắng (Đầu)":19.504,"User Register Test - Nhập tên chứa ký tự trắng (Cuối)":19.661,"User Register Test - Để trống Sđt":19.474,"User Register Test - Nhập sđt bằng ký tự trắng":19.478,"User Register Test - Nhập sđt đã tồn tại":19.514,"User Register Test - Nhập sđt chứa ký tự trắng (Đầu)":19.521,"User Register Test - Nhập sđt chứa ký tự trắng (Giữa)":19.544,"User Register Test - Nhập sđt chứa ký tự trắng (Cuối)":19.361,"User Register Test - Để trống CMND":19.529,"User Register Test - Nhập CMND bằng ký tự trắng":19.485,"User Register Test - Nhập CMND chứa ký tự trắng (Đầu)":19.434,"User Register Test - Nhập CMND chứa ký tự trắng (Giữa)":19.468,"User Register Test - Nhập CMND chứa ký tự trắng (Cuối)":19.474,"User Register Test - Để trống email":19.46,"User Register Test - Nhập email bằng ký tự trắng":19.552,"User Register Test - Nhập email nhưng có ký tự trắng (Đầu)":19.77,"User Register Test - Nhập email nhưng có ký tự trắng (Giữa)":50.077,"User Register Test - Nhập email nhưng có ký tự trắng (Cuối)":19.404,"User Register Test - Nhập email sai định dạng (Không có @)":19.549,"User Register Test - Nhập email sai định dạng (Thiếu tên miền)":19.384,"User Register Test - Để trống mật khẩu":19.413,"User Register Test - Nhập mật khẩu bằng ký tự trắng":19.437,"User Register Test - Nhập các trường bắt buộc hợp lệ, mã mời không hợp lệ":50.204
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Login_Data_Fail</td>
+<td>11</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Login_Data_Pass</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Register_Test_Data_Fail</td>
+<td>23</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>92%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 35,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 109,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 148
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="methods" thread-count="3">
+    <test name="Tests">
+        <groups>
+            <run>
+                <include name="Success"/>
+                <include name="Fail"/>
+            </run>
+        </groups>
+        <classes>
+           <class name="User.Register.User_Register_Test"/>
+            <!-- <class name="User.Login.User_Login_Test"/> -->
+        </classes>
+    </test>
+</suite>
+   <!-- <class name="User.Register.User_Register_Test"/> -->
+<!-- 
+<suite name="Single Test">
+    <test name="Search Tests">
+        <classes>
+         
+         <class name="User.Search.Product_Test"/> 
+        </classes>
+    </test>
+</suite> -->
+
+
+
+

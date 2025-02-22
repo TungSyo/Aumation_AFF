@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-22T10:14:38 ICT" name="Parallel Test Suite" finished-at="2025-02-22T10:15:06 ICT" duration-ms="28236">
+    <groups>
+      <group name="Success">
+        <method signature="User_Register_Test.registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:User.Register.User_Register_Test@1aafa419]" name="registerTest" class="User.Register.User_Register_Test"/>
+      </group> <!-- Success -->
+      <group name="Fail">
+        <method signature="User_Register_Test.registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:User.Register.User_Register_Test@1aafa419]" name="registerTest" class="User.Register.User_Register_Test"/>
+      </group> <!-- Fail -->
+    </groups>
+    <test started-at="2025-02-22T10:14:38 ICT" name="Tests" finished-at="2025-02-22T10:15:06 ICT" duration-ms="28236">
+      <class name="User.Register.User_Register_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:User.Register.User_Register_Test@1aafa419]" started-at="2025-02-22T10:14:38 ICT" name="beforeSuite" finished-at="2025-02-22T10:14:38 ICT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:User.Register.User_Register_Test@1aafa419]" started-at="2025-02-22T10:14:39 ICT" name="setUp" finished-at="2025-02-22T10:14:40 ICT" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:User.Register.User_Register_Test@1aafa419]" started-at="2025-02-22T10:14:40 ICT" name="registerTest" data-provider="registerData" finished-at="2025-02-22T10:15:06 ICT" duration-ms="25327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Đỗ Thu Thuận]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0373824323]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tungsyo1910@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[003203003134]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Adminmaster]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1111111111]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Hưng Yên]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Khoái Châu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Đông Kết]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Xóm 15]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[19/10/2003]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[MB Bank]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[0373824200]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Mã mời không hợp lệ, người mời không tồn tại]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Honivy]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[http://localhost:4200/]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Nhập các trường bắt buộc hợp lệ, mã mời không hợp lệ]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:User.Register.User_Register_Test@1aafa419]" started-at="2025-02-22T10:15:06 ICT" name="tearDown" finished-at="2025-02-22T10:15:06 ICT" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:User.Register.User_Register_Test@1aafa419]" started-at="2025-02-22T10:15:06 ICT" name="afterSuite" finished-at="2025-02-22T10:15:07 ICT" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- User.Register.User_Register_Test -->
+    </test> <!-- Tests -->
+  </suite> <!-- Parallel Test Suite -->
+</testng-results>
