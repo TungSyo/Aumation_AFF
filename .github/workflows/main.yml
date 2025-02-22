@@ -38,8 +38,9 @@ jobs:
           
           # Tải về gói cài đặt Chrome với phiên bản cụ thể
           wget https://dl.google.com/linux/direct/google-chrome-stable_${CHROME_VERSION}_amd64.deb
-          sudo dpkg -i google-chrome-stable_${CHROME_VERSION}_amd64.deb
-          sudo apt --fix-broken install -y
+          
+          # Cài đặt gói chrome
+          sudo dpkg -i google-chrome-stable_${CHROME_VERSION}_amd64.deb || sudo apt --fix-broken install -y
 
       # Bước 5: Cài đặt ChromeDriver tương thích với phiên bản Chrome
       - name: Install ChromeDriver
